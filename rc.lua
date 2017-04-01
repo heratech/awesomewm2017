@@ -76,3 +76,5 @@ require("rules");
 -- {{{ Signals
 require("signals")
 -- }}}
+--
+awful.util.spawn_with_shell("xscreensaver -no-splash")

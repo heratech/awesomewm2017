@@ -1,4 +1,5 @@
 globalkeys = awful.util.table.join(
+    awful.key({ }, "F12", function () awful.util.spawn("xscreensaver-command -lock") end),
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
     awful.key({ modkey,           }, "Left",
